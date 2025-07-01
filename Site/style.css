@@ -1,0 +1,85 @@
+/*CSS - Requisitos de estilização:*/
+/*1. O fundo da página deve ter uma cor suave.*/
+
+body{
+    background-color: LightBlue ;
+}
+
+/*2. O título (<h1>) deve ter uma cor diferente e estar centralizado.*/
+
+h1{
+    color: blueviolet;
+    position: static;
+    text-align: Center;
+    }
+/*3. O parágrafo (<p>) deve ter um tamanho de fonte maior e ser justificado.*/
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+    text-align: justify;
+}
+
+
+/*4. A lista (<ul>) deve ter um espaçamento maior entre os itens.*/
+
+ul li{
+    margin-bottom: 20px;  
+}
+
+/*5. A imagem (<img>)deve ter bordas arredondadas e um tamanho adequado*/
+
+#manga{
+    width: 25%;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-width: 15px;
+}
+
+/*6. A tabela(<table>) deve estar estilizada.*/
+#titulo_tabela_paises{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid;
+    border-color: black;
+    background-color: rgb(90, 45, 227);
+    color: rgb(249, 226, 226);
+}
+table {
+    background-color: rgb(79, 26, 224);
+    border-radius: 5px;
+    border-style:double ;
+    border-width: 10px;
+    border-color: black;
+    width: 100%;
+}
+
+th, td {
+    border-style: solid;
+    border-color: black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #53dd44;}
+tr:nth-child(odd) {background-color: #9a89e5;}
+.titulo_tabela{
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*7. O link (<a>) deve mudar de cor quando o usuário passar o mouse sobre ele.*/
+.links{
+    font-size: large;
+    text-align: center;
+    position: static;
+
+}
+.links:hover{ 
+    color: red;}
+
